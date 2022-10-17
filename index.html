@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>APIs</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Connect to github API</h1>
+      <div class="grid-wrapper" >
+        <textarea name="display-data" id="text-area" ></textarea>
+        <textarea name="display-code" id="text-area-2" ></textarea>
+      </div>
+      <div class="grid-wrapper" >
+        <select id="repos">
+          <option value="0">Select repository</option>
+        </select>
+        <button class="btn-fetch" id="btn">Make fetch request</button>
+      </div>
+      <div class="iframe-wrap">
+        <iframe class="frame" src="" frameborder="0" width="1920" height='1080'></iframe>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
